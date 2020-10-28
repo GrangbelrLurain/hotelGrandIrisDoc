@@ -1,6 +1,8 @@
+@charset "UTF-8";
 * {
   margin: 0;
   padding: 0;
+  font-family: 'NanumSquare', sans-serif;
 }
 
 ul,
@@ -19,42 +21,21 @@ a {
   text-decoration: none;
 }
 
+/* 전체 레이아웃 */
 #wrap {
-  width: 1280px;
+  max-width: 1280px;
   margin-right: auto;
-  margin-left: 150px;
-}
-
-header {
-  margin-top: 20px;
-  text-align: left;
-  font-size: 50px;
-  font-weight: bold;
-  color: #3d3158;
+  margin-left: 200px;
 }
 
 aside {
   position: fixed;
   top: 0;
   left: 0;
-  padding-top: 50px;
-  width: 120px;
+  padding-top: 80px;
+  width: 140px;
   background-image: -webkit-gradient(linear, left top, left bottom, from(#39254d), color-stop(50%, #a8a8a8), to(white));
   background-image: linear-gradient(to bottom, #39254d 0%, #a8a8a8 50%, white 100%);
-}
-
-aside ul {
-  height: 100vh;
-}
-
-aside ul li a {
-  display: block;
-  width: 120px;
-  height: 50px;
-  line-height: 50px;
-  text-align: center;
-  font-weight: bold;
-  color: #fafaff;
 }
 
 section article,
@@ -62,14 +43,112 @@ main article {
   margin-top: 30px;
 }
 
-.note_cont {
+section article h3,
+main article h3 {
+  margin-left: -24px;
+  margin-bottom: 5px;
+}
+
+footer {
+  z-index: -1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100vw;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  height: 100px;
+}
+
+footer address {
+  margin: 10px 40px;
+}
+
+/* 디자인 */
+header p {
+  margin-top: 20px;
+  text-align: left;
+  font-size: 50px;
+  font-weight: bold;
+  color: #3d3158;
+}
+
+aside button {
+  position: fixed;
+  top: 10px;
+  left: 70px;
+  width: 50px;
+  height: 50px;
+  background-color: rgba(255, 255, 255, 0);
+  border: 0;
+}
+
+aside ul {
+  height: 100vh;
+}
+
+aside ul li {
+  margin-top: 10px;
+}
+
+aside ul li a {
+  display: block;
+  margin: 0 10px;
+  width: 120px;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  font-weight: bold;
+  color: #fafaff;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+aside ul li a:hover {
+  background-color: #39254d;
+  border-radius: 30px;
+}
+
+main #plan table {
+  margin-top: 20px;
+  border-collapse: collapse;
+}
+
+main #plan table th {
+  padding: 5px 20px;
+  border: 1px solid #39254d;
+  background-color: #39254d;
+  color: white;
+}
+
+main #plan table td {
+  padding: 10px 20px;
+  border: 1px solid #c8c8c8;
+}
+
+main #note > ul > li {
+  margin-top: 14px;
+}
+
+main #note > ul > li h4 {
+  font-size: 20px;
+}
+
+main #note > ul > li .note_cont {
   display: none;
 }
 
-.note_cont img {
+main #note > ul > li .note_cont img {
   width: 100%;
 }
 
-.text {
+main #note > ul > li .text {
   white-space: pre;
 }
