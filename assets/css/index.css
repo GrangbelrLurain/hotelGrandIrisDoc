@@ -21,24 +21,45 @@ a {
 
 #wrap {
   width: 1280px;
-  margin: 0 auto;
+  margin-right: auto;
+  margin-left: 150px;
 }
 
 header {
-  text-align: center;
+  margin-top: 20px;
+  text-align: left;
   font-size: 50px;
   font-weight: bold;
+  color: #3d3158;
 }
 
 aside {
-  position: -webkit-sticky;
-  position: sticky;
-  top: 50px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding-top: 50px;
+  width: 120px;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#39254d), color-stop(50%, #a8a8a8), to(white));
+  background-image: linear-gradient(to bottom, #39254d 0%, #a8a8a8 50%, white 100%);
 }
 
-section,
-main {
-  margin-left: 140px;
+aside ul {
+  height: 100vh;
+}
+
+aside ul li a {
+  display: block;
+  width: 120px;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  font-weight: bold;
+  color: #fafaff;
+}
+
+section article,
+main article {
+  margin-top: 30px;
 }
 
 .note_cont {

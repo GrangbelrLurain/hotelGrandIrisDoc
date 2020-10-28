@@ -23,23 +23,46 @@ a {
 
 #wrap {
   width: 1280px;
-  margin: 0 auto;
+  margin-right: auto;
+  margin-left: 150px;
 }
 
 header {
-  text-align: center;
+  margin-top: 20px;
+  text-align: left;
   font-size: 50px;
   font-weight: bold;
+  color: rgb(61, 49, 88);
 }
 
 aside {
-  position: sticky;
-  top: 50px;
+  position: fixed;
+  top:0;
+  left:0;
+  padding-top: 50px;
+
+  width: 120px;
+  background-image: linear-gradient(to bottom, rgb(57, 37, 77) 0%, rgb(168, 168, 168) 50%, rgb(255, 255, 255) 100%);
+  ul{height: 100vh;
+    li{
+      a{
+        display: block;
+        width: 120px;
+        height: 50px;
+        line-height: 50px;
+        text-align: center;
+        font-weight: bold;
+        color: rgb(250, 250, 255);
+      }
+    }
+  }
 }
 
 section,
 main {
-  margin-left: 140px;
+  article{
+    margin-top: 30px;
+  }
 }
 
 aside {
