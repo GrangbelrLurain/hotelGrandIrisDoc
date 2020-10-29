@@ -3,7 +3,7 @@
 * {
   margin: 0;
   padding: 0;
-  font-family: 'NanumSquare', sans-serif;
+  font-family: "NanumSquare", sans-serif;
 }
 
 ul,
@@ -35,43 +35,48 @@ header {
 
 aside {
   position: fixed;
-  top:0;
-  left:0;
+  top: 0;
+  left: 0;
   padding-top: 80px;
   width: 140px;
-  background-image: linear-gradient(to bottom, rgb(57, 37, 77) 0%, rgb(168, 168, 168) 50%, rgb(255, 255, 255) 100%);
+  background-image: linear-gradient(
+    to bottom,
+    rgb(57, 37, 77) 0%,
+    rgb(168, 168, 168) 50%,
+    rgb(255, 255, 255) 100%
+  );
 }
 
 section,
 main {
-  article{
+  article {
     margin-top: 30px;
-    h3{
+    h3 {
       margin-left: -24px;
       margin-bottom: 5px;
     }
   }
 }
 
-footer{
+footer {
   z-index: -1;
   display: flex;
   position: fixed;
   bottom: 0;
-  left:0;
+  left: 0;
   width: 100vw;
   justify-content: flex-end;
   align-items: flex-end;
   height: 100px;
-  address{
+  address {
     margin: 10px 40px;
   }
 }
 
 /* 디자인 */
 
-header{
-  p{
+header {
+  p {
     margin-top: 20px;
     text-align: left;
     font-size: 50px;
@@ -81,20 +86,21 @@ header{
 }
 
 aside {
-  button{
+  button {
     position: fixed;
     top: 10px;
     left: 70px;
     width: 50px;
     height: 50px;
-    background-color: rgba(255,255,255,0);
+    background-color: rgba(255, 255, 255, 0);
     border: 0;
   }
 
-  ul{height: 100vh;
-    li{
+  ul {
+    height: 100vh;
+    li {
       margin-top: 10px;
-      a{
+      a {
         display: block;
         margin: 0 10px;
         width: 120px;
@@ -104,7 +110,7 @@ aside {
         font-weight: bold;
         color: rgb(250, 250, 255);
         transition: 0.4s;
-        &:hover{
+        &:hover {
           background-color: rgb(57, 37, 77);
           border-radius: 30px;
         }
@@ -113,39 +119,49 @@ aside {
   }
 }
 
-main{
-  #plan{
-    table{
+main {
+  #plan {
+    table {
       margin-top: 20px;
       border-collapse: collapse;
-      th{
+      th {
         padding: 5px 20px;
         border: 1px solid rgb(57, 37, 77);
         background-color: rgb(57, 37, 77);
         color: rgb(255, 255, 255);
       }
-      td{
+      td {
         padding: 10px 20px;
         border: 1px solid rgb(200, 200, 200);
       }
     }
   }
-  #note{
-    > ul{
-      > li{
+  #note {
+    .everyBtnClose {
+      position: fixed;
+      display: none;
+      top: 20px;
+      right: 20px;
+      width: 150px;
+      height: 50px;
+    }
+    > ul {
+      > li {
         margin-top: 14px;
-          h4{
-            font-size: 20px;
+        h4 {
+          font-size: 20px;
+        }
+        .note_cont {
+          display: none;
+          padding: 50px;
+          background-color: rgba(0, 0, 0, 0.1);
+          img {
+            width: 100%;
           }
-          .note_cont {
-            display: none;
-            img {
-              width: 100%;
-            }
-          }
-          .text {
-            white-space: pre;
-          }
+        }
+        .text {
+          white-space: pre;
+        }
       }
     }
   }
