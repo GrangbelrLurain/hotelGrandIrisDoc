@@ -23,19 +23,37 @@ a {
 
 /* 전체 레이아웃 */
 #wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.container {
   max-width: 1280px;
   margin-right: auto;
-  margin-left: 200px;
 }
 
 aside {
-  position: fixed;
+  position: -webkit-sticky;
+  position: sticky;
   top: 0;
   left: 0;
   padding-top: 80px;
+  margin-right: 50px;
   width: 140px;
+  max-height: 80vh;
   background-image: -webkit-gradient(linear, left top, left bottom, from(#39254d), color-stop(50%, #a8a8a8), to(white));
   background-image: linear-gradient(to bottom, #39254d 0%, #a8a8a8 50%, white 100%);
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+aside.close {
+  width: 40px;
+}
+
+aside.close ul {
+  display: none;
 }
 
 section article,
@@ -82,12 +100,24 @@ header p {
 
 aside button {
   position: fixed;
-  top: 10px;
-  left: 70px;
-  width: 50px;
-  height: 50px;
+  top: 40px;
+  left: 100px;
+  width: 20px;
+  height: 20px;
   background-color: rgba(255, 255, 255, 0);
   border: 0;
+  border-left: 5px solid white;
+  border-bottom: 5px solid white;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+aside button.close {
+  left: 0;
+  -webkit-transform: rotate(225deg);
+          transform: rotate(225deg);
 }
 
 aside ul {
@@ -157,7 +187,9 @@ main #note > ul > li .note_cont {
 }
 
 main #note > ul > li .note_cont img {
-  max-width: 33%;
+  width: 33%;
+  max-width: 300px;
+  min-width: 150px;
 }
 
 main #note > ul > li .note_cont .note_name {
