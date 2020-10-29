@@ -49,7 +49,7 @@ aside {
 }
 
 aside.close {
-  width: 40px;
+  width: 0;
 }
 
 aside.close ul {
@@ -108,16 +108,61 @@ aside button {
   border: 0;
   border-left: 5px solid white;
   border-bottom: 5px solid white;
-  -webkit-transform: rotate(45deg);
-          transform: rotate(45deg);
+  -webkit-transform: rotate(225deg);
+          transform: rotate(225deg);
   -webkit-transition: 0.4s;
   transition: 0.4s;
+  cursor: pointer;
+}
+
+aside button:hover {
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+}
+
+@-webkit-keyframes closeAnimation {
+  0% {
+    -webkit-transform: rotate(45deg);
+            transform: rotate(45deg);
+  }
+  100% {
+    -webkit-transform: rotate(405deg);
+            transform: rotate(405deg);
+  }
+}
+
+@keyframes closeAnimation {
+  0% {
+    -webkit-transform: rotate(45deg);
+            transform: rotate(45deg);
+  }
+  100% {
+    -webkit-transform: rotate(405deg);
+            transform: rotate(405deg);
+  }
 }
 
 aside button.close {
-  left: 0;
-  -webkit-transform: rotate(225deg);
-          transform: rotate(225deg);
+  top: 20px;
+  left: 15px;
+  height: 20px;
+  width: 20px;
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+  border: 0;
+  background-color: #39254d;
+  -webkit-animation-name: closeAnimation;
+          animation-name: closeAnimation;
+  -webkit-animation-duration: 10s;
+          animation-duration: 10s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+}
+
+aside button.close:hover {
+  -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
+  border-radius: 50%;
 }
 
 aside ul {
