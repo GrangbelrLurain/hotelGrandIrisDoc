@@ -156,7 +156,13 @@ main {
           padding: 50px;
           background-color: rgba(0, 0, 0, 0.1);
           img {
-            width: 100%;
+            max-width: 33%;
+          }
+          .note_name {
+            text-align: center;
+            font-size: 24px;
+            color: rgb(57, 37, 77);
+            margin: 20px 0;
           }
         }
         .text {

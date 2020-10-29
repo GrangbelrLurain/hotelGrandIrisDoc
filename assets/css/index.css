@@ -157,7 +157,14 @@ main #note > ul > li .note_cont {
 }
 
 main #note > ul > li .note_cont img {
-  width: 100%;
+  max-width: 33%;
+}
+
+main #note > ul > li .note_cont .note_name {
+  text-align: center;
+  font-size: 24px;
+  color: #39254d;
+  margin: 20px 0;
 }
 
 main #note > ul > li .text {
