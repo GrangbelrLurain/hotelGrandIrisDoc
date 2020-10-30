@@ -56,6 +56,11 @@ aside.close ul {
   display: none;
 }
 
+section,
+main {
+  margin-bottom: 200px;
+}
+
 section article,
 main article {
   margin-top: 30px;
@@ -219,10 +224,15 @@ main #note .everyBtnClose {
 
 main #note > ul > li {
   margin-top: 14px;
+  white-space: pre-line;
 }
 
 main #note > ul > li h4 {
   font-size: 20px;
+}
+
+main #note > ul > li .note_sub li {
+  display: block;
 }
 
 main #note > ul > li .note_cont {
@@ -245,5 +255,5 @@ main #note > ul > li .note_cont .note_name {
 }
 
 main #note > ul > li .text {
-  white-space: pre;
+  white-space: pre-line;
 }
