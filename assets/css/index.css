@@ -242,7 +242,7 @@ main #note > ul > li .note_cont {
 }
 
 main #note > ul > li .note_cont img {
-  width: 33%;
+  width: 100%;
   max-width: 300px;
   min-width: 150px;
 }
