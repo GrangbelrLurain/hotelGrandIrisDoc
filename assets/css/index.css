@@ -94,7 +94,7 @@ footer address {
   margin: 10px 40px;
 }
 
-/* 디자인 */
+/* 세부 디자인 */
 header p {
   margin-top: 20px;
   text-align: left;
@@ -213,6 +213,11 @@ main #plan table td {
   border: 1px solid #c8c8c8;
 }
 
+main #plan table td:nth-child(3) {
+  color: red;
+  text-align: center;
+}
+
 main #note .everyBtnClose {
   position: fixed;
   display: none;
@@ -242,18 +247,29 @@ main #note > ul > li .note_cont {
 }
 
 main #note > ul > li .note_cont img {
+  display: block;
   width: 100%;
   max-width: 300px;
   min-width: 150px;
+  margin: 0 auto;
 }
 
 main #note > ul > li .note_cont .note_name {
   text-align: center;
   font-size: 24px;
+  font-weight: bold;
   color: #39254d;
   margin: 20px 0;
 }
 
 main #note > ul > li .text {
   white-space: pre-line;
+}
+
+footer address {
+  color: rgba(40, 40, 40, 0.5);
+}
+
+footer address:hover {
+  color: #282828;
 }

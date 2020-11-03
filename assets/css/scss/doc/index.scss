@@ -87,7 +87,7 @@ footer {
   }
 }
 
-/* 디자인 */
+/* 세부 디자인 */
 
 header {
   p {
@@ -179,6 +179,10 @@ main {
       td {
         padding: 10px 20px;
         border: 1px solid rgb(200, 200, 200);
+        &:nth-child(3) {
+          color: red;
+          text-align: center;
+        }
       }
     }
   }
@@ -208,13 +212,16 @@ main {
           padding: 50px;
           background-color: rgba(0, 0, 0, 0.1);
           img {
+            display: block;
             width: 100%;
             max-width: 300px;
             min-width: 150px;
+            margin: 0 auto;
           }
           .note_name {
             text-align: center;
             font-size: 24px;
+            font-weight: bold;
             color: rgb(57, 37, 77);
             margin: 20px 0;
           }
@@ -223,6 +230,15 @@ main {
           white-space: pre-line;
         }
       }
+    }
+  }
+}
+
+footer {
+  address {
+    color: rgba(40, 40, 40, 0.5);
+    &:hover {
+      color: rgba(40, 40, 40, 1);
     }
   }
 }

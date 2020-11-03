@@ -9,7 +9,7 @@
       <li>1차 서브페이지 리스트 작성</li>
     </list>
     <contents>
-      <img src="assets/img/1차 회의.png" alt="1차 회의 결과"></img>
+      <img src="assets/img/10_26/1차 회의.png" alt="1차 회의 결과"></img>
       0. 주제선정
         - 1안 호텔
         - 2안 외식
@@ -29,7 +29,7 @@
       3. 서브페이지 리스트(임시)
         1) 웨딩 2) 카지노 (봄, 은주)
         3) 객실예약 (다같이)
-        4) 레스토랑 (정희)
+        4) 다이닝 (정희)
         5) 스파 (규연)
         6) 비즈니스 7) 부대시설
       * 추가 아이디어 방에 올려주세요~!
@@ -78,7 +78,7 @@
 
   > 최종 : 그랜드 아이리스
   (뜻 : 기쁜 소식)
-
+  <img src="assets/img/10_28/메인컬러.png" alt="메인컬러"></img>
   1. 메인/서브 컬러
     - 메인 : 5B30BE
     - 서브1 : 282828
@@ -110,7 +110,9 @@
     <title>4차 회의 10/30</title>
     <list>
       <li>로고 디자인 1차 기획 완료</li>
-      <li></li>
+      <li>*차주 계획</li>
+      <li>로고 제작 ~ 11/3</li>
+      <li>전체 레이아웃 회의 11/4</li>
     </list>
     <contents>
       <img src="assets/img/10_30/1차컨펌.png" alt="1차컨펌 로고"></img>
@@ -121,6 +123,34 @@
     </contents>
   </note>
   <note>
-    <title>서브페이지 및 메인페이지 레이아웃 디자인 진행 11/2</title>
+    <title>서브페이지 및 메인페이지 레이아웃 디자인 진행 11/3</title>
+    <list>
+      <li>로고 디자인 기획 완료</li>
+      <li>서브페이지 레이아웃 1차 완료</li>
+      <li>메인페이지 레이아웃 1차 완료</li>
+      <li>PPT 내용 구성안 진행</li>
+      <li>헤더, 푸터 디자인 진행</li>
+    </list>
+    <contents>
+      *로고 컨펌 완료
+      <img src="assets/img/11_03/logo1.png" alt="로고_1"></img>
+      <img src="assets/img/11_03/logo2.png" alt="로고_2"></img>
+
+      *서브페이지 레이아웃 디자인
+      <p class="note_name">봄</p>
+      <img src="assets/img/11_03/봄_1.jpg" alt="봄_1"></img>
+      <p class="note_name">은주</p>
+      <img src="assets/img/11_03/은주_1.jpg" alt="은주_1"></img>
+      <p class="note_name">정희</p>
+      <img src="assets/img/11_03/정희_1.jpg" alt="정희_1"></img>
+      <p class="note_name">규연</p>
+      <img src="assets/img/11_03/규연_1.jpg" alt="규연_1"></img>
+      <img src="assets/img/11_03/규연_2.jpg" alt="규연_2"></img>
+      <img src="assets/img/11_03/규연_3.jpg" alt="규연_3"></img>
+      <img src="assets/img/11_03/규연_4.jpg" alt="규연_4"></img>
+
+      *메인페이지 레이아웃 디자인
+      <img src="assets/img/11_03/메인_1.jpg" alt="메인_1"></img>
+    </contents>
   </note>
 </root>
