@@ -27,7 +27,8 @@
         - 레이아웃 (규연, 정희)
 
       3. 서브페이지 리스트(임시)
-        1) 웨딩 2) 카지노 (봄, 은주)
+        1) 웨딩 (봄)
+        2) 카지노 (은주)
         3) 객실예약 (다같이)
         4) 다이닝 (정희)
         5) 스파 (규연)
@@ -155,12 +156,63 @@
   </note>
   <note>
     <title>서브페이지 디자인 자료 서치 진행 11/4</title>
+    <list>
+      <li>서브페이지 디자인 소스 서칭 진행</li>
+    </list>
+    <contents>
+      <p class="note_name">은주</p>
+      <img src="assets/img/11_04/은주/은주_1.png" alt="은주 1"></img>
+      <img src="assets/img/11_04/은주/은주_2.png" alt="은주 1"></img>
+      <img src="assets/img/11_04/은주/은주_3.png" alt="은주 1"></img>
+      <img src="assets/img/11_04/은주/은주_4.png" alt="은주 1"></img>
+      <img src="assets/img/11_04/은주/은주_5.png" alt="은주 1"></img>
+      <img src="assets/img/11_04/은주/은주_6.png" alt="은주 1"></img>
+      <img src="assets/img/11_04/은주/은주_7.png" alt="은주 1"></img>
+      <img src="assets/img/11_04/은주/은주_8.png" alt="은주 1"></img>
+      <img src="assets/img/11_04/은주/은주_9.png" alt="은주 1"></img>
+      <img src="assets/img/11_04/은주/은주_10.png" alt="은주 1"></img>
+      <img src="assets/img/11_04/은주/은주_11.png" alt="은주 1"></img>
+      <img src="assets/img/11_04/은주/은주_12.png" alt="은주 1"></img>
+      <img src="assets/img/11_04/은주/은주_13.png" alt="은주 1"></img>
+      <img src="assets/img/11_04/은주/은주_14.png" alt="은주 1"></img>
+      <img src="assets/img/11_04/은주/은주_15.png" alt="은주 1"></img>
+      <img src="assets/img/11_04/은주/은주_16.png" alt="은주 1"></img>
+      <img src="assets/img/11_04/은주/은주_17.png" alt="은주 1"></img>
+      <img src="assets/img/11_04/은주/은주_18.png" alt="은주 1"></img>
+      <img src="assets/img/11_04/은주/은주_19.png" alt="은주 1"></img>
+      <img src="assets/img/11_04/은주/은주_20.png" alt="은주 1"></img>
+      <img src="assets/img/11_04/은주/은주_21.png" alt="은주 1"></img>
+      <img src="assets/img/11_04/은주/은주_22.png" alt="은주 1"></img>
+      <img src="assets/img/11_04/은주/은주_23.png" alt="은주 1"></img>
+      <img src="assets/img/11_04/은주/은주_24.png" alt="은주 1"></img>
+      <img src="assets/img/11_04/은주/은주_25.png" alt="은주 1"></img>
+      <img src="assets/img/11_04/은주/은주_26.png" alt="은주 1"></img>
+      <img src="assets/img/11_04/은주/은주_27.png" alt="은주 1"></img>
+      <img src="assets/img/11_04/은주/은주_28.png" alt="은주 1"></img>
+      <p class="note_name">정희</p>
+      <img src="assets/img/11_04/정희/정희_1.png" alt="정희 1"></img>
+      <img src="assets/img/11_04/정희/정희_2.png" alt="정희 1"></img>
+      <img src="assets/img/11_04/정희/정희_3.png" alt="정희 1"></img>
+      <img src="assets/img/11_04/정희/정희_4.png" alt="정희 1"></img>
+    </contents>
   </note>
   <note>
     <title>서브페이지 디자인 진행 11/5</title>
     <list>
+      <li>웨딩 (봄)</li>
+      <li>카지노 (은주)</li>
+      <li>다이닝 (정희)</li>
+      <li>스파 (규연)</li>
     </list>
     <contents>
+      <p class="note_name">봄</p>
+      <img src="assets/img/11_05/봄_01.png" alt="은주 1"></img>
+      <p class="note_name">은주</p>
+      <img src="assets/img/11_05/은주_01.png" alt="은주 1"></img>
+      <p class="note_name">정희</p>
+      <img src="assets/img/11_05/정희_01.png" alt="정희 1"></img>
+      <p class="note_name">규연</p>
+      <img src="assets/img/11_05/규연_01.png" alt="정희 1"></img>
     </contents>
   </note>
 </root>
