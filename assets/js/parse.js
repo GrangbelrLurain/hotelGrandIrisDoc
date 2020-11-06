@@ -59,6 +59,7 @@ function makeDoc(xml) {
     };
   }
   btnEventAdd();
+  imageEventAdd();
 /*
   var gname = xmlDoc.getElementsByTagName("name")[0].firstChild.data;
   document.getElementById("gname").innerHTML = gname;

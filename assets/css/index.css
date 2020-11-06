@@ -273,3 +273,38 @@ footer address {
 footer address:hover {
   color: #282828;
 }
+
+.layerPopUp {
+  position: fixed;
+  z-index: 50;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.layerPopUp .plusBtn {
+  position: fixed;
+  z-index: 60;
+  background-color: #fff;
+  width: 40px;
+  height: 40px;
+  right: 10px;
+  bottom: 10px;
+}
+
+.layerPopUp .minusBtn {
+  position: fixed;
+  z-index: 60;
+  background-color: #fff;
+  width: 40px;
+  height: 40px;
+  right: 10px;
+  bottom: 50px;
+}
+
+.layerPopUp img {
+  width: 50%;
+}
