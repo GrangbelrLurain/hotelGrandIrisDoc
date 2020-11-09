@@ -1,5 +1,12 @@
 function imageEventAdd(){
   document.querySelectorAll("img").forEach(function(elem){
+    const clickImg = elem
+    elem.addEventListener("click", function(){
+      window.open(clickImg.src);
+    })
+  })
+  /*
+  document.querySelectorAll("img").forEach(function(elem){
     const clickImage = elem
     elem.addEventListener("click",function(){
     const newImageWindow = document.createElement("div");
@@ -22,5 +29,5 @@ function imageEventAdd(){
       document.querySelector("#wrap").removeChild(".layerPopUp");
     })
     })
-  })
+  })*/
 }
