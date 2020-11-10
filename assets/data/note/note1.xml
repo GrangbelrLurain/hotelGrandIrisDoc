@@ -256,20 +256,40 @@
     </contents>
   </note>
   <note>
-    <title>서브페이지 디자인, 스토리보드 페이지 디자인 진행 11/10</title>
+    <title>5차 회의, 서브페이지 디자인, 스토리보드 페이지 디자인 진행 11/10</title>
     <list>
       <li>서브페이지 디자인 1차 피드백</li>
       <li>스토리보드 페이지 디자인 제작</li>
       <li>추가 서브페이지 디자인 제작</li>
     </list>
     <contents>
-      <p class="note_name">봄</p>
-      <img src="assets/img/11_10/봄_01.png" alt="봄 서브 페이지1"></img>
-      <p class="note_name">은주</p>
-      <img src="assets/img/11_10/은주_01.png" alt="은주 서브 페이지1"></img>
-      <p class="note_name">정희</p>
-      <img src="assets/img/11_10/정희_01.png" alt="정희 서브 페이지1"></img>
-      <p class="note_name">규연</p>
+      1. 회의 결과
+        디자인 추가 수정 예정
+        스토리보드 레이아웃 1차 확정
+      2. 이번 주 운영
+        (11/11) - 서브페이지 디자인 수정, 스토리보드 파트별 진행
+        (11/12) - 메인페이지 디자인
+      <p class="note_name">디자인 피드백</p>
+      <p class="note_name">웨딩</p>
+      <img src="assets/img/11_09/봄_01.png" alt="봄 서브 페이지1"></img>
+      <img src="assets/img/11_10/웨딩_01.png" alt="웨딩 서브 페이지1"></img>
+      <p class="note_name">카지노</p>
+      <img src="assets/img/11_09/은주_01.png" alt="은주 서브 페이지1"></img>
+      <img src="assets/img/11_10/카지노_01.png" alt="카지노 서브 페이지1"></img>
+      <img src="assets/img/11_10/카지노_02.png" alt="카지노 서브 페이지2"></img>
+      <p class="note_name">다이닝</p>
+      <img src="assets/img/11_09/정희_01.png" alt="정희 서브 페이지1"></img>
+      <img src="assets/img/11_10/다이닝_01.png" alt="다이닝 서브 페이지1"></img>
+      <p class="note_name">스토리보드</p>
+      <img src="assets/img/11_10/스토리보드_01.png" alt="스토리보드 진행1"></img>
+      <p class="note_name">서브페이지 추가 진행</p>
+      예약페이지
+      <img src="assets/img/11_10/예약_01.png" alt="서브페이지_예약_01"></img>
+      서브페이지 헤더 수정(블랙)
+      <img src="assets/img/11_10/헤더수정_01.png" alt="서브페이지_예약_01"></img>
+      서브페이지 헤더 수정(화이트)
+      <img src="assets/img/11_10/헤더수정_02.png" alt="서브페이지_예약_01"></img>
+
     </contents>
   </note>
 </root>
