@@ -281,7 +281,10 @@
       <img src="assets/img/11_09/정희_01.png" alt="정희 서브 페이지1"></img>
       <img src="assets/img/11_10/다이닝_01.png" alt="다이닝 서브 페이지1"></img>
       <p class="note_name">스토리보드</p>
+      <a href="https://drive.google.com/file/d/19gLEr-vLHcYwXXIVcfFphSSh4dgxs_ad/view?usp=sharing"><button>스토리보드 다운로드</button></a>
       <img src="assets/img/11_10/스토리보드_01.png" alt="스토리보드 진행1"></img>
+      <img src="assets/img/11_10/스토리보드_02.png" alt="스토리보드 진행2"></img>
+      <img src="assets/img/11_10/스토리보드_03.png" alt="스토리보드 진행3"></img>
       <p class="note_name">서브페이지 추가 진행</p>
       예약페이지
       <img src="assets/img/11_10/예약_01.png" alt="서브페이지_예약_01"></img>
@@ -289,7 +292,6 @@
       <img src="assets/img/11_10/헤더수정_01.png" alt="서브페이지_예약_01"></img>
       서브페이지 헤더 수정(화이트)
       <img src="assets/img/11_10/헤더수정_02.png" alt="서브페이지_예약_01"></img>
-
     </contents>
   </note>
 </root>
