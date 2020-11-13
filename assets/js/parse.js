@@ -52,13 +52,9 @@ function makeDoc(xml) {
       const newNoteDiv = document.createElement("div");
       newNoteDiv.classList.add("note_cont");
       newNoteList.appendChild(newNoteDiv);
-      
-      const newNoteContents = document.createElement("p");
-      newNoteContents.classList.add("text");
-      newNoteContents.innerHTML = noteContents[0].innerHTML;
-      newNoteDiv.appendChild(newNoteContents);
     };
   }
+
   btnEventAdd();
   imageEventAdd();
 /*
