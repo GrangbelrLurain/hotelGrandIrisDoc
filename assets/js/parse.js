@@ -8,7 +8,7 @@ function loadDoc() {
           makeDoc(this);
       }
   };
-  req.open("GET", "/assets/data/note/note1.xml  ", true);
+  req.open("GET", "assets/data/note/note1.xml", true);
   req.send();
 }
 
