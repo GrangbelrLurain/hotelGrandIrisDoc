@@ -1,13 +1,14 @@
 loadDoc()
 
 function loadDoc() {
+
   const req = new XMLHttpRequest();
   req.onreadystatechange = function() {
       if (this.readyState == 4 && this.status == 200) {
           makeDoc(this);
       }
   };
-  req.open("GET", "/assets/data/note/note1.xml  ", true);
+  req.open("GET", "assets/data/note/note1.xml", true);
   req.send();
 }
 
@@ -51,13 +52,9 @@ function makeDoc(xml) {
       const newNoteDiv = document.createElement("div");
       newNoteDiv.classList.add("note_cont");
       newNoteList.appendChild(newNoteDiv);
-      
-      const newNoteContents = document.createElement("p");
-      newNoteContents.classList.add("text");
-      newNoteContents.innerHTML = noteContents[0].innerHTML;
-      newNoteDiv.appendChild(newNoteContents);
     };
   }
+
   btnEventAdd();
   imageEventAdd();
 /*
