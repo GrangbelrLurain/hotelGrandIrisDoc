@@ -103,8 +103,19 @@ function contentsMake(xml, btnIndex){
   newNoteContents.innerHTML = noteContents[btnIndex].innerHTML;
 
   contentsLocation[btnIndex].appendChild(newNoteContents);
-  imageEventAdd();
+  imageEventAdd(btnIndex);
   // Image Event Add Function is on 'imageGallery.js' //
+}
+
+function imageEventAdd(btnIndex){
+  if(document.querySelectorAll(".note_cont")[btnIndex].querySelectorAll("img").length){
+  document.querySelectorAll(".note_cont")[btnIndex].querySelectorAll("img").forEach(function(elem){
+    const clickImg = elem
+    elem.addEventListener("click", function(){
+      window.open(clickImg.src);
+    })
+  })
+  }
 }
 /*
   var gname = xmlDoc.getElementsByTagName("name")[0].firstChild.data;
