@@ -1,0 +1,21 @@
+@media(max-width: 800px){
+#wrap{
+    width: 90vw;
+    padding: 5vw;
+    margin: 0;
+    overflow-x: hidden;
+}
+aside {
+    position: fixed;
+    max-height: 100vh;
+    transition: 0.4s;
+  
+    &.close {
+      width: 0;
+      height: 100vh;
+      ul {
+        display: none;
+      }
+    }
+  }
+}

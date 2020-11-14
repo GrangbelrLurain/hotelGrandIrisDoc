@@ -228,6 +228,7 @@ main {
         }
         .text {
           white-space: pre-line;
+          padding: 0 5vw;
         }
       }
     }
@@ -236,9 +237,12 @@ main {
 
 footer {
   address {
+    font-size: 14px;
+    opacity: 0.4;
     color: rgba(40, 40, 40, 0.5);
     &:hover {
       color: rgba(40, 40, 40, 1);
+      opacity: 1;
     }
   }
 }
@@ -276,3 +280,5 @@ footer {
     width: 50%;
   }
 }
+
+@import "interection";
