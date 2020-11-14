@@ -12,14 +12,14 @@ function imageEventAdd(){
     newImageBtnMinus.classList.add("minusBtn")
 
     const documentWrap = document.querySelector("#wrap");
-
+    
     documentWrap.appendChild(newImageWindow);
     newImageWindow.appendChild(clickImage);
     newImageWindow.appendChild(newImageBtnPlus);
     newImageWindow.appendChild(newImageBtnMinus);
 
     newImageWindow.addEventListener("click", function(){
-      document.querySelector("#wrap").removeChild(".layerPopUp");
+
     })
     })
   })

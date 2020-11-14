@@ -281,11 +281,12 @@ footer address:hover {
   left: 0;
   width: 100vw;
   height: 100vh;
-  overflow: hidden;
+  overflow: scroll;
   background: rgba(0, 0, 0, 0.5);
 }
 
 .layerPopUp .plusBtn {
+  content: "+";
   position: fixed;
   z-index: 60;
   background-color: #fff;
@@ -296,6 +297,7 @@ footer address:hover {
 }
 
 .layerPopUp .minusBtn {
+  content: "-";
   position: fixed;
   z-index: 60;
   background-color: #fff;
