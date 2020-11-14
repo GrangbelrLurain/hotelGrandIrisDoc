@@ -65,7 +65,9 @@ function btnEventAdd(){
     elem.addEventListener("click", function(){
       btn.parentElement.querySelector(".note_cont").style.display = "block";
       document.querySelector(".everyBtnClose").style.display = "block";
-      loadContents(btnIndex);
+      if(!document.querySelectorAll(".note_cont")[btnIndex].innerHTML){
+        loadContents(btnIndex);
+      }
     })
   })
 
