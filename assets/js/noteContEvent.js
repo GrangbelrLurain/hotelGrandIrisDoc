@@ -1,9 +1,8 @@
-function btnEventAdd(){
+/*function btnEventAdd(){
     document.querySelectorAll(".note_cont_btn").forEach(function(elem, index){
     const btn = elem;
     const btnIndex = index;
     elem.addEventListener("click", function(){
-
       btn.parentElement.querySelector(".note_cont").style.display = "block";
       document.querySelector(".everyBtnClose").style.display = "block";
       loadContents(btnIndex);
@@ -41,7 +40,7 @@ function contentsMake(xml, btnIndex){
       
   const newNoteContents = document.createElement("p");
   newNoteContents.classList.add("text");
-  newNoteContents.innerHTML = noteContents[0].innerHTML;
+  newNoteContents.innerHTML = noteContents[btnIndex].innerHTML;
 
   contentsLocation[btnIndex].appendChild(newNoteContents);
-}
+}*/
