@@ -228,6 +228,7 @@ main {
         }
         .text {
           white-space: pre-line;
+          padding: 0 5vw;
         }
       }
     }
@@ -236,9 +237,12 @@ main {
 
 footer {
   address {
+    font-size: 14px;
+    opacity: 0.4;
     color: rgba(40, 40, 40, 0.5);
     &:hover {
       color: rgba(40, 40, 40, 1);
+      opacity: 1;
     }
   }
 }
@@ -250,9 +254,10 @@ footer {
   left: 0;
   width: 100vw;
   height: 100vh;
-  overflow: hidden;
+  overflow: scroll;
   background: rgba(0, 0, 0, 0.5);
   .plusBtn {
+    content:"+";
     position: fixed;
     z-index: 60;
     background-color: #fff;
@@ -262,6 +267,7 @@ footer {
     bottom: 10px;
   }
   .minusBtn {
+    content:"-";
     position: fixed;
     z-index: 60;
     background-color: #fff;
@@ -274,3 +280,5 @@ footer {
     width: 50%;
   }
 }
+
+@import "interection";

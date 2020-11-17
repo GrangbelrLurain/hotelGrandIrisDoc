@@ -264,14 +264,18 @@ main #note > ul > li .note_cont .note_name {
 
 main #note > ul > li .text {
   white-space: pre-line;
+  padding: 0 5vw;
 }
 
 footer address {
+  font-size: 14px;
+  opacity: 0.4;
   color: rgba(40, 40, 40, 0.5);
 }
 
 footer address:hover {
   color: #282828;
+  opacity: 1;
 }
 
 .layerPopUp {
@@ -281,11 +285,12 @@ footer address:hover {
   left: 0;
   width: 100vw;
   height: 100vh;
-  overflow: hidden;
+  overflow: scroll;
   background: rgba(0, 0, 0, 0.5);
 }
 
 .layerPopUp .plusBtn {
+  content: "+";
   position: fixed;
   z-index: 60;
   background-color: #fff;
@@ -296,6 +301,7 @@ footer address:hover {
 }
 
 .layerPopUp .minusBtn {
+  content: "-";
   position: fixed;
   z-index: 60;
   background-color: #fff;
@@ -307,4 +313,26 @@ footer address:hover {
 
 .layerPopUp img {
   width: 50%;
+}
+
+@media (max-width: 800px) {
+  #wrap {
+    width: 90vw;
+    padding: 5vw;
+    margin: 0;
+    overflow-x: hidden;
+  }
+  aside {
+    position: fixed;
+    max-height: 100vh;
+    -webkit-transition: 0.4s;
+    transition: 0.4s;
+  }
+  aside.close {
+    width: 0;
+    height: 100vh;
+  }
+  aside.close ul {
+    display: none;
+  }
 }
