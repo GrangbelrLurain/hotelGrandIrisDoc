@@ -78,7 +78,7 @@
 
   > 최종 : 그랜드 아이리스
   (뜻 : 기쁜 소식)
-  <img src="assets/img/10_28/메인컬러.png" alt="메인컬러"></img>
+      <img src="assets/img/10_28/메인컬러.png" alt="메인컬러"></img>
   1. 메인/서브 컬러
     - 메인 : 5B30BE
     - 서브1 : 282828
@@ -281,7 +281,9 @@
       <img src="assets/img/11_09/정희_01.png" alt="정희 서브 페이지1"></img>
       <img src="assets/img/11_10/다이닝_01.png" alt="다이닝 서브 페이지1"></img>
       <p class="note_name">스토리보드</p>
-      <a href="https://drive.google.com/file/d/19gLEr-vLHcYwXXIVcfFphSSh4dgxs_ad/view?usp=sharing"><button>스토리보드 다운로드</button></a>
+      <a href="https://drive.google.com/file/d/19gLEr-vLHcYwXXIVcfFphSSh4dgxs_ad/view?usp=sharing">
+        <button>스토리보드 다운로드</button>
+      </a>
       <img src="assets/img/11_10/스토리보드_01.png" alt="스토리보드 진행1"></img>
       <img src="assets/img/11_10/스토리보드_02.png" alt="스토리보드 진행2"></img>
       <img src="assets/img/11_10/스토리보드_03.png" alt="스토리보드 진행3"></img>
@@ -307,7 +309,9 @@
       <li>스토리보드 1차 발표용 완료(세부내용 다운로드 링크)</li>
     </list>
     <contents>
-      <a href="https://drive.google.com/file/d/1COPrwKzzCGouDI5q0jALjb4AWYTtSJ9j/view?usp=sharing"><button>스토리보드 다운로드</button></a>
+      <a href="https://drive.google.com/file/d/1COPrwKzzCGouDI5q0jALjb4AWYTtSJ9j/view?usp=sharing">
+        <button>스토리보드 다운로드</button>
+      </a>
     </contents>
   </note>
   <note>
@@ -320,9 +324,7 @@
   <note>
     <title>6차 회의, 메인&서브페이지 코딩 시작 11/16</title>
     <list>
-      <li>
-       * 업무분배
-      </li>
+      <li>* 업무분배</li>
       <li>봄 - 서브 헤더</li>
       <li>은주 - 메인&서브 푸터</li>
       <li>정희 - 메인 헤더</li>
