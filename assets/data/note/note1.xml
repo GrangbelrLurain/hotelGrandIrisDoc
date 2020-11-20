@@ -343,11 +343,11 @@
     <contents>
       * 추가 디자인 업데이트
       <p class="note_name">봄</p>
-      <img src="assets/img/11_16/봄_01.png" alt="봄 서브페이지 디자인"></img>
+      <img src="assets/img/11_17/봄_01.png" alt="봄 서브페이지 디자인"></img>
       <p class="note_name">정희</p>
-      <img src="assets/img/11_16/정희_01.png" alt="정희 서브페이지 디자인"></img>
+      <img src="assets/img/11_17/정희_01.png" alt="정희 서브페이지 디자인"></img>
       <p class="note_name">은주</p>
-      <img src="assets/img/11_16/은주_01.png" alt="은주 서브페이지 디자인"></img>
+      <img src="assets/img/11_17/은주_01.png" alt="은주 서브페이지 디자인"></img>
     </contents>
   </note>
   <note>
@@ -357,5 +357,24 @@
       <li>메인 헤더 진행중</li>
       <li>서브페이지(시설)_ fitness, pool 완료</li>
     </list>
+  </note>
+  <note>
+    <title>메인/서브페이지 코딩 11/19</title>
+    <list>
+      <li>메인 헤더 1차 완료</li>
+      <li>서브페이지(시설)_ 전체 완료</li>
+    </list>
+  </note>
+  <note>
+    <title>메인/서브페이지 코딩 11/20</title>
+    <list>
+      <li>메인 헤더 1차 수정 완료</li>
+      <li>메인 페이지 통합 양식</li>
+    </list>
+    <contents>
+      <button>
+        <a href="web/index.html">메인페이지로 이동</a>
+      </button>
+    </contents>
   </note>
 </root>

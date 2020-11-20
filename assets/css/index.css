@@ -262,6 +262,18 @@ main #note > ul > li .note_cont .note_name {
   margin: 20px 0;
 }
 
+main #note > ul > li .note_cont button {
+  padding: 15px;
+  border-radius: 10px;
+  background: white;
+}
+
+main #note > ul > li .note_cont button a {
+  color: #333;
+  line-height: 0;
+  font-size: 30px;
+}
+
 main #note > ul > li .text {
   white-space: pre-line;
   padding: 0 5vw;
